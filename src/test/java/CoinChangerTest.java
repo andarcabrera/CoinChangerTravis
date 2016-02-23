@@ -46,7 +46,7 @@ public class CoinChangerTest {
         assertEquals(makeTestChange(10, 1, 1), c.makeChange(12));
         assertEquals(makeTestChange(10, 5), c.makeChange(15));
         assertEquals(makeTestChange(10, 10), c.makeChange(20));
-        assertEquals(makeTestChange(10, 10, 5), c.makeChange(25));
+        assertEquals(makeTestChange(25), c.makeChange(25));
     }
 
     @Test
